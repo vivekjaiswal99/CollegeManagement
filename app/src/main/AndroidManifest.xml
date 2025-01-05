@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollegeManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".DeletesCollegeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".deleteAttend"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteNotification"
+            android:exported="false" />
+        <activity
+            android:name=".AttenDelete"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceDelete"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteAttendanceDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteSemesterDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteAdmissionDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteCollegeReviewDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteCourseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteCollegeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteTeacherDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteItems"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".SendsMessage"
+            android:exported="false" />
+        <activity
+            android:name=".GetNotificationDetailsDataBase"
+            android:exported="false" />
+        <activity
+            android:name=".SendNotification"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPages"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentCall"
+            android:exported="false" />
+        <activity
+            android:name=".SemesterIntent"
+            android:exported="false" />
+        <activity
+            android:name=".AdCheckAttendanceStudent"
+            android:exported="false" />
+        <activity
+            android:name=".AddStudentAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeReviewIntent"
+            android:exported="false" />
+        <activity
+            android:name=".OnlineAdmissionIntent"
+            android:exported="false" />
+        <activity
+            android:name=".CourseIntent"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeIntent"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherIntentDetail"
+            android:exported="false" />
+        <activity
+            android:name=".CheckReviewCollege"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeReview"
+            android:exported="false" />
+        <activity
+            android:name=".CheckSemesterDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdSemesterDetail"
+            android:exported="false" />
+        <activity
+            android:name=".OnlineAdmissionShowDetail"
+            android:exported="false" />
+        <activity
+            android:name=".OnlineAdmission"
+            android:exported="false" />
+        <activity
+            android:name=".CourseDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCourseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherDetail"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCollegeDetail"
+            android:exported="false" />
+        <activity
+            android:name=".GetTeacherDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SetStudentDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SetCollegeReview"
+            android:exported="false" />
+        <activity
+            android:name=".SetSemesterDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SetsCourseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SetTeacherDetail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

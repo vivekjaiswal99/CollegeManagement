@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/twenty_one"
+    tools:context=".AddStudentAttendance">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/add_user"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+                    <EditText
+                        android:id="@+id/StudentName_edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="please enter student name"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/black"
+                        android:background="@drawable/custom_edit_text"
+                        android:drawableLeft="@drawable/baseline_person_24"
+                        android:padding="9dp"
+                        android:drawablePadding="15dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_marginTop="60dp">
+                    </EditText>
+                    <EditText
+                        android:id="@+id/FatherName_edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="please enter father name"
+                        android:drawableLeft="@drawable/baseline_person_pin_24"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/black"
+                        android:background="@drawable/custom_edit_text"
+                        android:padding="9dp"
+                        android:drawablePadding="15dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_marginTop="8dp">
+                    </EditText>
+                    <EditText
+                        android:id="@+id/StudentPhone_edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/baseline_phone_24"
+                        android:hint="please enter student phone number"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/black"
+                        android:background="@drawable/custom_edit_text"
+                        android:padding="9dp"
+                        android:drawablePadding="15dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_marginTop="8dp">
+                    </EditText>
+                    <Button
+                        android:id="@+id/submit_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/black"
+                        android:layout_margin="15dp"
+                        android:text="SUBMIT"
+                        android:textSize="20dp"
+                        android:textStyle="bold">
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

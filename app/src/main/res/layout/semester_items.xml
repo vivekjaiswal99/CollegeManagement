@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="20dp"
+    app:cardElevation="20dp"
+    app:cardMaxElevation="20dp"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/CardViews"
+    app:cardPreventCornerOverlap="true"
+    app:cardBackgroundColor="#52C9FF"
+    android:layout_margin="7dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="290dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/semester">
+        </ImageView>
+        <TextView
+            android:id="@+id/CourseName_Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COURSE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp">
+        </TextView>
+        <TextView
+            android:id="@+id/subject_one"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="SUBJECT ONE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/subject_two"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="SUBJECT TWO"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+        <TextView
+            android:id="@+id/subject_three"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="SUBJECT THREE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+        <TextView
+            android:id="@+id/subject_four"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="SUBJECT FOUR"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+        <TextView
+            android:id="@+id/subject_five"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="SUBJECT FIVE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+        <TextView
+            android:id="@+id/subject_six"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="ANY SUBJECT"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/teacher_one"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TEACHER ONE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/teacher_two"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TEACHER TWO"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/teacher_three"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TEACHER THREE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/teacher_four"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TEACHER FOUR"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/teacher_five"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TEACHER FIVE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/teacher_six"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TEACHER NAME"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp">
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
